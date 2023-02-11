@@ -1,24 +1,35 @@
 import socket
 
+# Configuration parameters
+Host = "127.0.0.1"
+Port = 12000
+buff = 1024
+
 # Create a UDP socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-# Bind the socket to a specific address and port
-server_address = ('127.0.0.1', 1200)
+# Bind the socket to a specific address and Port
+server_address = (Host, Port)
 server_socket.bind(server_address)
 
-print("Server is ready to receive image data.")
+print("The server is ready to receive the file")
 
-# Receive data from the client
-while True:
-    data, client_address = server_socket.recvfrom(4096)
-    
-    # Write the received data to a file
-    with open('received_image.jpg', 'wb') as f:
-        f.write(data)
-    
-    print("Image file has been received successfully.")
-    break
+# Open the image file for writing
+with open("received_img.jpg", "wb") as image_file:
+    try:
+        while True:
+        # Receive the chunk from the client
+            data, address = server_socket.recvfrom(buff)
 
-# Close the socket
-server_socket.close()
+        # Write the chunk to the file
+            image_file.write(data)
+
+        # Send ACK to the client
+            server_socket.sendto(b"ACK", address)
+    except:
+        server_socket.close()
+        print("File Downloaded. Check the folder in the same path")
+        
+        
+       
+
