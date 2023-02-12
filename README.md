@@ -6,11 +6,19 @@ Samonorom
 Adarsh  
 Nishchay  
 
-
 ## Environment:  
-Operating Systems : Windows 11
+Operating Systems : Mac
 Programming Language : Python
 Version : Python 3.10
+
+## Files:
+DesignFile.md
+README.md
+bnwDog.jpg
+bubbles.jpg
+received_image.jpg
+clientUDP.py
+serverUDP.py
 
 ## Instructions:  
 
