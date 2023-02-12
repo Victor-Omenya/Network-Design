@@ -8,7 +8,9 @@ Nishchay
 
 
 ## Environment:  
-
-
+Operating Systems : Windows 11
+Programming Language : Python
+Version : Python 3.10
 
 ## Instructions:  
+
