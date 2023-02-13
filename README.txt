@@ -13,7 +13,7 @@ Version : Python 3
 
 ## Files:'
 I.    DesignFiles-Screenshots - this folder contains screenshots of the different stages of phase 2.
-II.   DesignFile.md - this is the design file 
+II.   DesignFile.md - this is the design file that explains what all the python files do.
 III.  README.md - a brief overview of what this phase is about.
 IV.   README.txt - the ReadMe file containing the group members, environment, file list and instructions about phase 2. 
 IV.   bnwDog.jpg - one of the files to be transfered from the client to the server.
