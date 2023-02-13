@@ -31,4 +31,4 @@ IV.   Open the clientUDP.py file and check line #23. Make sure that the name mat
 V.    Note the messages provided in the commandline section of the IDE which would show this message "A chunk of the image was received as a packet" each time a packet was received by the server.
 VI.  Once the transmission is done, open the file named received_image.jpg to view the transmitted file. Open the original jpg file to compare to see whether there were any lost packets.
 
-Note: All the files should be in the same folder.
+Note: All the files should be in the same folder for the python files to work.
