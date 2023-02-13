@@ -75,7 +75,7 @@ d.	Each time a packet is received, a print statement will notify the user. Indic
 e.	“time.sleep(SLEEP_TIME)”, will use a 1 second interval to prevent bottleneck.  
 
 ## clientUDP.py  
-4.	clientUDP.py Library and Parameter Setup:  
+### 4.	clientUDP.py Library and Parameter Setup:  
 
         # Import socket and time library  
         import socket  
@@ -94,7 +94,7 @@ d.	UDP_PORT is used to assign a port number to allow direct communication betwee
 e.	PACKET_SIZE is used to determine how many bits will each packet contain. The size can be changed to the user preference, but the larger the packet size the slower the transfer speed will be.  
 f.	SLEEP_TIME is used as a 1 second interval to prevent bottleneck on the server while transferring the packets.  
   
-5.	clientUDP.py Socket Setup:  
+### 5.	clientUDP.py Socket Setup:  
   
         # Create a UDP socket for the client  
         Clientsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
@@ -110,7 +110,7 @@ a.	“Clientsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)”uses the s
 b.	“Clientsock.settimeout(SLEEP_TIME)” sets up the 1 second interval between each packet transfer.  
 c.	“server_address  = (UDP_IP, UDP_PORT)” and “Clientsock.connect(server_address)” are used to connect the client to the server.  
   
-# 6.	clientUDP.py Image Transfer:  
+### 6.	clientUDP.py Image Transfer:  
   
     # Open the image file for reading  
     # Replace "bubbles.jpg" for another file image if desired.  
