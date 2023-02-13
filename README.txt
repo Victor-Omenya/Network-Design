@@ -7,20 +7,21 @@ Adarsh
 Nishchay  
 
 ## Environment:  
-Operating Systems : Mac
+Operating Systems : Mac / Windows 11
 Programming Language : Python
 Version : Python 3
 
 ## Files:'
 I.    DesignFiles-Screenshots - this folder contains screenshots of the different stages of phase 2.
 II.   DesignFile.md - this is the design file that explains what all the python files do.
-III.  README.md - a brief overview of what this phase is about.
-IV.   README.txt - the ReadMe file containing the group members, environment, file list and instructions about phase 2. 
-IV.   bnwDog.jpg - one of the files to be transfered from the client to the server.
-V.    bubbles.jpg - one of the files to be transfered from the client to the server.
-VI.   received_image.jpg - the transmitted file in server from the client.
-VII.  clientUDP.py - the client python code. 
-VIII. serverUDP.py - the server python code.
+III.  DesignFile.docx - this is the word document version of the DesignFile.md.
+IV.  README.md - a brief overview of what this phase is about.
+V.   README.txt - the ReadMe file containing the group members, environment, file list and instructions about phase 2. 
+VI.   bnwDog.jpg - one of the files to be transfered from the client to the server.
+VII.    bubbles.jpg - one of the files to be transfered from the client to the server.
+VIII.   received_image.jpg - the transmitted file in server from the client.
+IX.  clientUDP.py - the client python code. 
+X. serverUDP.py - the server python code.
 
 ## Instructions:  
 I.    Following the link ( https://github.com/Victor-Omenya/Network-Design.git ) to the github repository, download the zip file. 
