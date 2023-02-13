@@ -15,12 +15,12 @@ Version : Python 3
 I.    DesignFiles-Screenshots - this folder contains screenshots of the different stages of phase 2.
 II.   DesignFile.md - this is the design file that explains what all the python files do.
 III.  DesignFile.docx - this is the word document version of the DesignFile.md.
-IV.  README.md - a brief overview of what this phase is about.
-V.   README.txt - the ReadMe file containing the group members, environment, file list and instructions about phase 2. 
-VI.    bubbles.jpg - one of the files to be transfered from the client to the server.
-VII.   received_image.jpg - the transmitted file in server from the client.
-VIII.  clientUDP.py - the client python code. 
-IX. serverUDP.py - the server python code.
+IV.   README.md - a brief overview of what this phase is about.
+V.    README.txt - the ReadMe file containing the group members, environment, file list and instructions about phase 2. 
+VI.   bubbles.jpg - one of the files to be transfered from the client to the server.
+VII.  received_image.jpg - the transmitted file in server from the client.
+VIII. clientUDP.py - the client python code. 
+IX.   serverUDP.py - the server python code.
 
 ## Instructions:  
 I.    Following the link ( https://github.com/Victor-Omenya/Network-Design.git ) to the github repository, download the zip file. 
