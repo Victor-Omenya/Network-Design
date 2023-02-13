@@ -142,3 +142,39 @@ f.	When the image has been completely sent, a print state will notify the user t
 g.	Lastly, the client’s socket is closed using “Clientsock.close()”.  
   
 # Execution Example:  
+
+## 1.	Default “bubble.jpg” in Local Folder:  
+A default image will be placed in the same local folder as clientUDP.py and serverUDP.py. in this case, we are using “bubbles.jpg”  
+
+ ![image](https://user-images.githubusercontent.com/98198530/218352985-6faf0d80-95cc-4c21-a699-8012ba91cea0.png)
+
+ 
+
+## 2.	Server Running:  
+The Server is running in PyCharm, and the print statement “Server is ready to receive the image” notify the user that the server is ready. Indicating to run “clientUDP.py”  
+
+![image](https://user-images.githubusercontent.com/98198530/218353004-2eddfd6f-6fb4-4b83-bc79-97830a10b042.png)
+
+ 
+## 3.	Client Running:  
+The client is now running and sending packets to the server.  
+ 
+ ![image](https://user-images.githubusercontent.com/98198530/218353017-382c31b3-7b4d-4464-a3fa-7baf9e47b1a9.png)
+
+
+## 4. Server Receiving Packets:  
+The Server print statements for each packet received.  
+ 
+ ![image](https://user-images.githubusercontent.com/98198530/218353032-b73253bd-3931-4185-8f78-3f53b9d7ce1c.png)
+
+## 5.	Example of Imaging being Re-created:  
+This is a screenshot of the image being partially uploaded to the new file “received_image.jpg”  
+ 
+![image](https://user-images.githubusercontent.com/98198530/218353068-f05c2b9d-f268-4fba-ba5d-bd31bab1eea6.png)
+
+ 
+## 6.	Completed Image:  
+The Image has now been recreated as “received_image.jpg”  
+ 
+![image](https://user-images.githubusercontent.com/98198530/218353077-179d1510-7c8a-416c-a6a3-ae5518e6c094.png)
+
