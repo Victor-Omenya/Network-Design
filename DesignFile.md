@@ -13,6 +13,7 @@ perfectly reliable using UDP connection developed or not.
 
 # Code Explanation:  
 
+[Code explination.docx](https://github.com/Victor-Omenya/Network-Design/files/10717782/Code.explination.docx)
 
 
 # Execution Example:  
