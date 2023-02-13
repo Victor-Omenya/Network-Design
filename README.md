@@ -6,28 +6,5 @@ Samonorom
 Adarsh  
 Nishchay  
 
-## Environment:  
-Operating Systems : Mac
-Programming Language : Python
-Version : Python 3
-
-## Files:'
-I.    DesignFiles-Screenshots - this folder contains screenshots of the different stages of phase 2.
-II.   DesignFile.md - this is the design file 
-III.  README.md - a brief overview of what this phase is about.
-IV.   README.txt - the ReadMe file containing the group members, environment, file list and instructions about phase 2. 
-IV.   bnwDog.jpg - one of the files to be transfered from the client to the server.
-V.    bubbles.jpg - one of the files to be transfered from the client to the server.
-VI.   received_image.jpg - the transmitted file in server from the client.
-VII.  clientUDP.py - the client python code. 
-VIII. serverUDP.py - the server python code.
-
-## Instructions:  
-I.    Following the link ( https://github.com/Victor-Omenya/Network-Design.git ) to the github repository, download the zip file. 
-II.   Open pycharm or any IDE that can open or run any python code.
-III.  Open the serverUDP.py file and run it. A message in the commandline section will pop up stating that the "Server is ready to receive the image".
-IV.   Open the clientUDP.py file and check line #23. Make sure that the name matches any of the .jpg files in the zip file. If they match, run the clientUDP.py code.
-V.    Note the messages provided in the commandline section of the IDE which would show this message "A chunk of the image was received as a packet" each time a packet was received by the server.
-VI.  Once the transmission is done, open the file named received_image.jpg to view the transmitted file. Open the original jpg file to compare to see whether there were any lost packets.
-
-Note: All the files should be in the same folder.
+## About
+Programming-Project-Phase-2 is about server-client communications via sending and receiving packets. This sample uses Python IDE to program a simple server and simple client to send and receive image packets from the client to the server. 
