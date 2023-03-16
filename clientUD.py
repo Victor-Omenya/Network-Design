@@ -2,8 +2,8 @@ import socket
 
 # Configuration parameters for client
 UDP_IP = 'localhost'      # Could use "127.0.0.1"
-UDP_PORT = 1200           # Assigned port # to communicate
-PACKET_SIZE = 1024        # Size of each packet to send (can be adjusted)
+UDP_PORT = 8080           # Assigned port # to communicate
+PACKET_SIZE = 2048        # Size of each packet to send (can be adjusted)
 SLEEP_TIME = 1            # Intervals to prevent overloading
 
 def calculate_checksum(data):
@@ -24,19 +24,18 @@ Clientsock.settimeout(SLEEP_TIME)
 
 # Connect to the server
 server_address = (UDP_IP, UDP_PORT)
-
 # Open the image file for reading
 # Replace "bubbles.jpg" for another file image if desired.
-with open("bubbles.jpg", "rb") as f:
+with open("AWS.jpg", "rb") as f:
     image_data = f.read(PACKET_SIZE)
-
+    
     # Initialize sequence number
     seq_num = 0
 
     # Send packets with sequence numbers
     while image_data:
-        checksum2 = calculate_checksum(image_data)
-        packet = f'{seq_num}:{checksum2}:{image_data.decode()}'.encode()
+        checksum = calculate_checksum(image_data)
+        packet = f'{seq_num}:{checksum}:'.encode() + image_data
         Clientsock.sendto(packet, server_address)
         print(f'Sent packet {seq_num}')
 
